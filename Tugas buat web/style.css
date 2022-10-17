@@ -1,0 +1,297 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.logo {
+    font-size: 50px;
+    font-weight: 900;
+    float: left;
+    font-family: courier;
+    color: #E26868;
+    min-height: 2.3em;
+            background: url('https://st2.depositphotos.com/3867453/6216/v/950/depositphotos_62165689-stock-illustration-letter-a-logo-icon-design.jpg');
+            background-size: 2.3em;
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 3em;
+            font-weight: normal;
+            max-width: 15em;
+            color: var(--heading);
+            font-size: 1.9em;
+    
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 3px solid #D8D9CF;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans ms;
+    color: #FF8787;
+}
+
+h2 {
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #0078AA;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #FD841F;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px ;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru {
+    background: #2192FF;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #000000;
+    text-decoration: none;
+
+}
+
+a.tbl-pink {
+    background: #000000;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px ;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #2192FF;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px ;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tugas-list2 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tugas2 {
+    width: auto;
+    margin: 50px;
+}
+
+.pojok {
+    text-align: center;
+    width: 100%;
+}
+
+.kartu-tugas4 {
+    width: auto;
+    margin: 50px;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+.miring {
+    text-align: center;
+    width: 100%;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2192FF;
+    width: 100%;
+    line-height: 50px;
+}
+h4 {
+    font-family: 'courier';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #E26868;
+    width: 100%;
+    line-height: 50px;
+    min-height: 2.3em;
+            background: url('https://st2.depositphotos.com/3867453/6216/v/950/depositphotos_62165689-stock-illustration-letter-a-logo-icon-design.jpg');
+            background-size: 2.3em;
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 3em;
+            font-weight: normal;
+            max-width: 15em;
+            color: var(--heading);
+            font-size: 1.9em;
+    
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
